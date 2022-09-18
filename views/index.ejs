@@ -1,61 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
-    <!-- CSS Section -->
-    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
-    <link rel='stylesheet' href='/content/app.css' />
-  </head>
-  <body>
-    <!-- Main Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">Alina Fadeeva</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/home"><i class="fa-sharp fa-solid fa-house"></i> Home</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/about"><i class="fa-solid fa-user"></i> About me </a>
-            </li>
+<%- include('partials/header.ejs') %>
 
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/projects"><i class="fa-regular fa-folder-open"></i> Projects </a>
-            </li>
 
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/services"><i class="fa-solid fa-pen"></i> Services </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/contact"><i class="fa-solid fa-square-phone"></i> Contact me </a>
-            </li>
-          
-        </div>
-      </div>
-    </nav>
-
-    <!-- Main Content -->
+<%- include('partials/main_nav.ejs') %>
+    
+<!-- Main Content -->
     <main class="container">
       <div class="jumbotron">
         <div class="border border-success p-2 mb-2 border-opacity-25">Welcome to <%= title %> page!</div>
       </div>
     </main>
 
-    <!-- Script Section -->
-    <script src="/jquery/dist/jquery.min.js"></script>
-    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/scripts/app.js"></script>
-  </body>
-</html>
+<%- include('partials/bottom_nav.ejs') %> 
+
+<%- include('partials/footer.ejs') %>
+
+
 
 
 
