@@ -1,7 +1,31 @@
 /* Custom CSS goes here */
 
+/* Home page */
+.bgimage {
+  height:100vh;
+  background: url('assets/images/cover.jpg');
+  background-size:cover;
+  position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+  text-align: center;
+  top: 50%;
+  left: 40%;
+  margin-top: 300px;
+}
+.hero_desc {
+  font-size: 2rem;
+  text-align: center;
+  top: 50%;
+  left: 40%;
+  margin-top: 20px;
+}
 
-/* About me section */
+
+/* About me  */
+
 .imageAboutPage {
   width: 100%;
   border-radius: 50%;
