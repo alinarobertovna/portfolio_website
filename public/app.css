@@ -54,6 +54,7 @@ p {text-align: justify;}
 
 #btn-cv {margin-left: 260px;}
 
+#prj-btn {margin-left: 300px;}
 
 /* services section css */
 .servicesText.card {
@@ -73,4 +74,18 @@ p {text-align: justify;}
 }
 .servicesText:hover {
   border: 1px solid #008000;
+}
+#srv-btn {margin-left: 550px;}
+
+#brain-games-pic {
+  width: 60%;
+  margin-left: 80px;
+}
+#portfolio-pic {
+  width: 60%;
+  margin-left: 80px;
+}
+#calc-pic {
+  width: 60%;
+  margin-left: 80px;
 }
