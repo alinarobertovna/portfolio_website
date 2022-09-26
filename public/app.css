@@ -1,4 +1,5 @@
 /* Custom CSS goes here */
+
 /* Home page */
 .bgimage {
   height:100vh;
@@ -39,7 +40,6 @@
 
 
 /* About me  */
-
 .imageAboutPage {
   width: 100%;
   border-radius: 50%;
@@ -56,7 +56,7 @@ p {text-align: justify;}
 
 #prj-btn {margin-left: 300px;}
 
-/* services section css */
+/* Services */
 .servicesText.card {
   height: 280px;
   cursor: pointer;
@@ -75,6 +75,8 @@ p {text-align: justify;}
 .servicesText:hover {
   border: 1px solid #008000;
 }
+
+/* Projects */
 #srv-btn {margin-left: 550px;}
 
 #brain-games-pic {
@@ -89,3 +91,23 @@ p {text-align: justify;}
   width: 60%;
   margin-left: 80px;
 }
+
+/* Contact */
+
+.frm-title {
+  margin-left: 880px;
+}
+#f1 {
+  width: 30%;
+}
+#f2 {
+  width: 30%;
+}
+#f3 {
+  width: 30%;
+}
+.frm {
+  margin-left: 800px;
+}
+
+

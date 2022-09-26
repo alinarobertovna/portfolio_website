@@ -1,5 +1,33 @@
-<div class="container">
+
     <br>
     <br>
-    <h1>Welcome to <%= title %> page!</h1>
-</div>
+    <br>
+    <br>
+
+    <!-- contact section-->
+    <h1 class="frm-title">Contact me</h1> <br> 
+    <form class="frm">
+        <div class="mb-3" id="f2">
+            <label for="nameInput" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+          </div>
+        <div class="mb-3" id="f1">
+          <label for="exampleInputEmail1" class="form-label">Email address:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3" id="f2">
+          <label for="exampleInputPassword1" class="form-label">Phone number:</label>
+          <input type="tel" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 mt-3" id="f3">
+            <label for="exampleInputEmail1" class="form-label">Project Details:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        </div> 
+        <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">Remember me</label>
+            </div>
+        </div> <br>
+        <a href="/home"><button type="submit" class="btn btn-primary">Submit</button></a>
+    </form>
