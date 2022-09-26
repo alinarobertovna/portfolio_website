@@ -94,20 +94,27 @@ p {text-align: justify;}
 
 /* Contact */
 
-.frm-title {
-  margin-left: 880px;
+#frm-title { margin-left: 860px;}
+#inputEmail4 { 
+  width: 30%; 
+  margin-left: 600px;
 }
-#f1 {
-  width: 30%;
+#lbl-first { margin-left: 600px; }
+#inputPassword4 { width: 30%;}
+#inputAddress { 
+  width: 30%; 
+  margin-left: 600px;
 }
-#f2 {
-  width: 30%;
+#lbl-email {margin-left: 600px;}
+#inputCity { width: 30%; }
+#inputZip { 
+  width: 37%; 
+  margin-left: 600px;
 }
-#f3 {
-  width: 30%;
-}
-.frm {
-  margin-left: 800px;
-}
+#lbl-text {margin-left: 600px;}
+#gridCheck {margin-left: 580px;}
+#lbl-check {margin-left: 5px;}
+#btn-submit {margin-left: 600px;}
+#contact-head {margin-left: 860px;}
 
 
