@@ -61,21 +61,24 @@ p {text-align: justify;}
   height: 280px;
   cursor: pointer;
 }
-.servicesIcon {
-  font-size: 36px;
-  text-align: center;
-  width: 100%;
-}
+
 .card-title {
   text-align: center;
 }
 .card:hover .servicesIcon {
-  color: #008000;
+  color: #353839;
 }
 .servicesText:hover {
-  border: 1px solid #008000;
+  border: 1px solid #353839;
 }
-
+#web-dev {
+  width: 50px;
+  height: 50px;
+  margin-left: 160px;
+}
+#contact-btn {
+  margin-left: 990px;
+}
 /* Projects */
 #srv-btn {margin-left: 550px;}
 
@@ -90,6 +93,11 @@ p {text-align: justify;}
 #calc-pic {
   width: 60%;
   margin-left: 80px;
+}
+#git {
+  width: 45px;
+  height: 45px;
+  margin-left: 1010px;
 }
 
 /* Contact */
@@ -117,7 +125,7 @@ p {text-align: justify;}
 #btn-submit {margin-left: 600px;}
 #contact-head {margin-left: 860px;}
 #mob-icon {
-  width: 40px;
+  width: 50px;
   height: 50px;
   margin-left:700px;
 }
@@ -127,7 +135,7 @@ p {text-align: justify;}
   font-weight: 600;
 }
 #email-icon {
-  width: 45px;
+  width: 50px;
   height: 50px;
   margin-left:100px;
 }
@@ -136,5 +144,7 @@ p {text-align: justify;}
   display: inline-block;
   font-weight: 600;
 }
+
+
 
 
