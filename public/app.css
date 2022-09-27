@@ -143,10 +143,22 @@ input, textarea {
 }
 
 #contact-head {margin-left: 860px;}
+#email-large-pic {
+  width: 10%;
+  height: 10%;
+  margin-top: -40em;
+  margin-left: 350px;
+  
+}
+#contact-footer {
+  margin-left: 500px;
+  margin-top: 130px;
+}
 #mob-icon {
   width: 50px;
   height: 50px;
-  margin-left:700px;
+  margin-left:239px;
+  margin-top: 15px;
 }
 #tel {
   margin-left: 10px;
