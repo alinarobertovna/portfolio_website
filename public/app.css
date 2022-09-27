@@ -116,5 +116,25 @@ p {text-align: justify;}
 #lbl-check {margin-left: 5px;}
 #btn-submit {margin-left: 600px;}
 #contact-head {margin-left: 860px;}
+#mob-icon {
+  width: 40px;
+  height: 50px;
+  margin-left:700px;
+}
+#tel {
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: 600;
+}
+#email-icon {
+  width: 45px;
+  height: 50px;
+  margin-left:100px;
+}
+#em {
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: 600;
+}
 
 
