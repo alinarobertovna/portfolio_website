@@ -5,41 +5,17 @@
 
     <!-- contact section-->
     <a href="/home"><img src="assets/images/logo2.jpg" alt="logo" id="logo"></a>
-    <form class="row g-3">
-      <h1 id="frm-title">Contact me</h1>
-      <div class="col-md-6">
-        <label for="inputEmail4" class="form-label" id="lbl-first">First Name:</label>
-        <input type="email" class="form-control" id="inputEmail4">
-      </div>
-      <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Last Name:</label>
-        <input type="text" class="form-control" id="inputPassword4">
-      </div>
-      <div class="col-md-6">
-        <label for="inputAddress" class="form-label" id="lbl-email">Email:</label>
-        <input type="text" class="form-control" id="inputAddress">
-      </div>
-      <div class="col-md-6">
-        <label for="inputCity" class="form-label">Phone Number:</label>
-        <input type="tel" class="form-control" id="inputCity">
-      </div>
-      <div class="col-12">
-        <label for="inputZip" class="form-label" id="lbl-text">Project Details:</label>
-        <textarea rows="6" class="form-control" id="inputZip"></textarea>
-      </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck" id="lbl-check">Remember me</label>
-        </div>
-      </div>
-      <div class="col-12">
-        <a href="/home" class="btn btn-success" id="btn-submit">Submit</a>
-      </div>
-    </form> <br> <br> <br> <br> <br> 
-    <div>
-      <img src="assets/images/smartphone.png" alt="mob-icon" id="mob-icon">
-      <p id="tel">+ 1 (416) 555 555 5</p>
-      <img src="assets/images/email.png" alt="mail-icon" id="email-icon">
-      <p id="em">afadeeva@centennial.com</p>
-    </div>
+
+    <form>
+      <h2>Contact Me</h2> <br>
+      <input class="form-control" id="first-name" type="text" required placeholder="First name" name="First-Name">
+      <input class="form-control" type="text" required placeholder="Last name" name="Last-Name">
+      <input class="form-control" id="eml" type="email" required placeholder="Email" name="Email">
+      <input class="form-control" id="tel2" id="tel" type="tel" required placeholder="Phone Number" name="Phone Number">
+      <textarea class="form-control" rows="6" required placeholder="Project Details" name="Message"></textarea>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+      </div> <br>
+      <button type="button" class="btn btn-success"><a href="/home" id="submit-link">Submit</a></button>
+    </form>

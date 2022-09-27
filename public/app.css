@@ -1,4 +1,7 @@
-/* Custom CSS goes here */
+
+/* Student: Alina Fadeeva
+  Student ID 301249589
+  Assignment 1 COMP 229 */
 
 /* Home page */
 .bgimage {
@@ -106,26 +109,39 @@ p {text-align: justify;}
 /* Contact */
 
 #frm-title { margin-left: 860px;}
-#inputEmail4 { 
-  width: 30%; 
-  margin-left: 600px;
+html {
+  box-sizing: border-box;
 }
-#lbl-first { margin-left: 600px; }
-#inputPassword4 { width: 30%;}
-#inputAddress { 
-  width: 30%; 
-  margin-left: 600px;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
-#lbl-email {margin-left: 600px;}
-#inputCity { width: 30%; }
-#inputZip { 
-  width: 37%; 
-  margin-left: 600px;
+html,body {
+  padding:0;
+  margin:0;
+  color: black;
 }
-#lbl-text {margin-left: 600px;}
-#gridCheck {margin-left: 580px;}
-#lbl-check {margin-left: 5px;}
-#btn-submit {margin-left: 600px;}
+form {
+ width:90%;
+  max-width:500px;
+  margin:15px auto;
+}
+input, textarea {
+  width:100%;
+  margin-bottom:10px;
+  border-radius:3px;
+  border: solid 0.5px #ccc;
+  padding:4px 7px;
+}
+
+#tel2 {
+  margin-right: 500px;
+}
+
+#submit-link {
+  text-decoration: none;
+  color:white;
+}
+
 #contact-head {margin-left: 860px;}
 #mob-icon {
   width: 50px;
