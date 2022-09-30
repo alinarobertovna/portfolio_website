@@ -81,7 +81,7 @@ p {text-align: justify;}
   margin-left: 160px;
 }
 #contact-btn {
-  margin-left: 70%;
+  margin-left: 50%;
 }
 
 /* Projects */
@@ -103,7 +103,8 @@ p {text-align: justify;}
 #git {
   width: 45px;
   height: 45px;
-  margin-left: 50%;
+  margin-left: 40%;
+  margin-top: 5%;
 }
 
 /* Contact */
