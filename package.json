@@ -22,7 +22,7 @@
     "popper.js": "^1.16.1"
   },
   "description": "Portfolio Website <br> \r Alina Fadeeva - Assignment 1 COMP 229",
-  "main": "server.js",
+  "main": "routes/index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
